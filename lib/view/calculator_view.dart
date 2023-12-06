@@ -15,27 +15,11 @@ class _CalculatorViewState extends State<CalculatorView> {
   var result = '';
 
   final List<String> buttons = [
-    'C',
-    '*',
-    '/',
-    '<-',
-    '1',
-    '2',
-    '3',
-    '+',
-    '4',
-    '5',
-    '6',
-    '-',
-    '7',
-    '8',
-    '9',
-    '*',
-    '%',
-    '0',
-    '.',
-    '=',
-  ];
+    'C','*','/','<=',
+    '1','2','3','+',
+    '4','5','6','-',
+    '7','8','9','*',
+    '%','0','.','=',];
 
   @override
   Widget build(BuildContext context) {
